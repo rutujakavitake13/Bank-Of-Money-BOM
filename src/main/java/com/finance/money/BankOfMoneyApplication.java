@@ -1,4 +1,4 @@
-package app.bank_of_money;
+package com.finance.money;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
