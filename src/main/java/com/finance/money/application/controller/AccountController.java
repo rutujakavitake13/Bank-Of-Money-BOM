@@ -5,7 +5,15 @@ public class AccountController {
     /*
     create account
     delete account
+    update AccountDetails
     check balance
-    tranfer
+    freeze account
+    Unfreeze account
+    Close account
+ get statment
+    get account details
+    credit
+    debit
+
      */
 }
