@@ -5,6 +5,7 @@ import lombok.Data;
 import org.hibernate.annotations.CurrentTimestamp;
 import org.hibernate.annotations.SourceType;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
@@ -19,7 +20,7 @@ public class Transaction {
     private Integer Id;
 
     @Column(name = "AMOUNT", nullable = false, updatable = false)
-    private String amount;
+    private BigDecimal amount;
 
     @Column(name = "TRANSFER_TYPE", nullable = false, updatable = false)
     private String transferType;
